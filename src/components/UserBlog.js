@@ -6,7 +6,7 @@ const UserBlog = () => {
   const id = localStorage.getItem("userId");
   const sendRequest = async () => {
     const res = await axios
-      .get(`http://localhost:5000/api/blog/user/${id}`)
+      .get(`https://blog-app-api-s3xz.onrender.com/api/blog/user/${id}`)
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;
