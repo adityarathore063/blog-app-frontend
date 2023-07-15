@@ -44,14 +44,6 @@ const Header = () => {
               >
                 Login
               </Button>
-              // <Button
-              //   LinkComponent={Link}
-              //   to="/auth"
-              //   variant="contained"
-              //   sx={{ margin: 1, borderRadius: 10 }}
-              // >
-              //   Signup
-              // </Button>
             </>
           )}
           {isLoggedIn && (
